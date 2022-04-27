@@ -21,4 +21,4 @@ app.get("/pending", async (req, res) => {
         });
 })
 
-app.listen(process.env.port || 3030)
+app.listen(process.env.PORT || 3030)
