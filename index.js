@@ -15,8 +15,6 @@ app.get("/pending", async (req, res) => {
     })
         .then(result => result.json())
         .then(json => {
-            console.log(json)
-
             return res.json({
                 pending: json.pendingRobux
             })
